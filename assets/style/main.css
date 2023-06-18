@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*section-1*/
+.navbar {
+    display: flex;
+    /* background-color: rgb(0, 255, 255); */
+    justify-content: space-around;
+    padding: 0 auto;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.18);
+
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background-color: white;
+
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    /* background-color: rgb(255, 0, 195); */
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+/*section2*/
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/imges/Hero.png");
+
+    height: calc(100vh - 41.6px- 40px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container1 {
+
+    margin: 10rem;
+    border: 2px solid;
+    width: 47%;
+
+    text-align: center;
+    padding: 1rem;
+    height: 45%;
+
+}
+
+.container1 .title-banner {
+    width: 100%;
+    font-size: 3rem;
+    /* background-color: red; */
+
+}
+
+
+.container1 p {
+    margin: 0.5rem;
+}
+
+
+.container1 button {
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    color: white;
+    background-color: purple;
+
+
+    border-radius: 25%;
+    border: solid;
+}
+
+
+/* icond bottom*/
+.nav-bottom-images-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-bottom-images-icons .logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/*section*/
+.section-titile {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.section-titile .container1 .title-banner {
+    width: 100%;
+    font-size: 2rem;
+    /* background-color: rgba(0, 0, 0, 0.785); */
+}
+
+
+
+/* collection */
+.container2 {}
+
+.service .container2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.service .collection {
+    width: 33%;
+    margin-bottom: 1rem;
+}
+
+/* width: 300px;
+height: 500px;
+max-height: 500px;
+overflow: hidden; */
+
+.collection {
+    margin: 0px;
+    /* border: 1px solid #ccc;
+    border-radius: 2px; */
+    /* R T B L */
+
+    text-align: center;
+    flex-grow: 100px;
+}
+
+.collection .image img {
+    width: 20rem;
+    height: 40%;
+}
+
+
+/***********team icon************/
+.team--images-icons {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.team--images-icons .logo-text {
+    text-align: center;
+}
+
+
+.logo-section .logo-icons {
+
+
+
+    display: flex;
+
+    /* background-color: red; */
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* margin: 0 auto; */
+    /* margin: 0.5 ; */
+    padding: 0.5rem;
+}
+
+.logo-section .logo-icons .logo p {
+    font: 0.2rem;
+}
+
+
+.logo-section .logo-icons .logo {
+    /* border:2px solid black; */
+    width: 18%;
+}
+
+
+
+/*************************************************************/
+.container3 {
+    display: flex;
+
+    /*new*/
+    justify-content: space-around;
+
+}
+
+.container3 .card {
+    display: flex;
+
+    /* align-items: center; */
+    /* justify-content:flex-start; */
+    /* background-color: aquamarine; */
+
+
+    /*new*/
+    flex-direction: row;
+    width: 30%;
+    /* justify-content: space-around; */
+
+
+}
+
+
+
+.container3 .card .profile-detials {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 90px;
+    overflow: hidden;
+    background-color: aqua;
+    display: flex;
+    text-align: start;
+
+}
+
+.container3 .card .profile-detials img {
+
+
+    /* overflow: hidden; */
+
+    /* object-fit: fill;
+   text-align: center;
+   background-position: center;
+background-size: cover;
+background-repeat: no-repeat; */
+}
+
+.container3 .card .container-text {
+    /* background: blue; */
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+    /* padding: 10px; */
+    height: fit-content;
+
+
+}
+
+.container3 .card .container-text .text {
+    /* border: 2px solid black; */
+    /* text-align: end; */
+    /* max-height: 2rem; */
+    font-size: 0.7rem;
+    display: inline-block;
+}
+
+.container3 .card .container-text .text p {
+    padding: 0%;
+
+}
